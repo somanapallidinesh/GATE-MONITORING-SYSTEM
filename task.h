@@ -1,0 +1,12 @@
+char bcd_dec1(char p);
+char bcd_dec2(char p);
+void switch_config();
+void interrupt_config();
+void device_init();
+void device_config();
+void usart_outchar(char x);
+void usart_out_string(char str[]);
+void rtc_read_1sec();
+void gate_close();
+void task2_check_sensor();
+void starting_message();
