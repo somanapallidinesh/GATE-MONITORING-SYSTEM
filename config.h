@@ -1,0 +1,1 @@
+void device_reset();
